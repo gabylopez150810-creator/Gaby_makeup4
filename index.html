@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gaby_makeup | Maquillaje en Pasto</title>
+<meta name="description" content="Tienda de maquillaje en Pasto, Nariño. Labiales, bases, sombras y más con envíos a toda Colombia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header><div class="wrap bar">
+<a class="logo" href="#top" aria-label="Gaby_makeup, inicio">
+<svg width="40" height="40" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="23" fill="var(--accent)"/><rect x="20.5" y="9" width="7" height="13" rx="2" fill="#fff"/><rect x="18" y="22" width="12" height="6" rx="1.5" fill="var(--gold)"/><rect x="17" y="28" width="14" height="11" rx="2" fill="#fff"/><path d="M36 11l1.2 3 3 1.2-3 1.2L36 19.4l-1.2-3-3-1.2 3-1.2z" fill="#fff"/></svg>
+<span><b>Gaby_makeup</b><small>Maquillaje en Pasto</small></span></a>
+<nav><a href="#tienda">Tienda</a><a href="#bf">Black Friday</a><a href="#nosotros">Nosotros</a><a href="#club">Club Gaby</a></nav>
+<button class="cartbtn" id="open" aria-label="Abrir carrito">Carrito <span id="cnt">0</span></button>
+</div></header>
+
+<main id="top" class="wrap">
+<div class="hero">
+<div>
+<h1>Tu tono, tu look, tu día.</h1>
+<p>Labiales, bases, sombras y brochas elegidos en Pasto. Compra desde el celular y recibe en todo Colombia.</p>
+<a class="btn" href="#tienda">Ver productos</a><a class="btn ghost" href="#bf">Black Friday</a>
+</div>
+<div>
+<div class="swatches" id="sws" role="group" aria-label="Tonos de labial: toca uno para ver su nombre"></div>
+<div class="shade" id="shade" aria-live="polite">Toca un tono para ver su nombre.</div>
+</div>
+</div>
+<div class="trust">
+<div><b>Envíos a toda Colombia</b>Servientrega e Interrapidísimo</div>
+<div><b>Entrega en Pasto</b>El mismo día o recogida en tienda</div>
+<div><b>Pago seguro</b>PSE, tarjetas, Nequi y Daviplata</div>
+<div><b>Cambios fáciles</b>Productos sellados, 5 días</div>
+</div>
+
+<section id="tienda">
+<div class="sec-h"><h2>Tienda</h2><div class="chips" id="chips"></div></div>
+<div class="grid" id="grid"></div>
+</section>
+
+<section id="bf" aria-labelledby="bft">
+<h2 id="bft">Black Friday Gaby_makeup</h2>
+<p>Ofertas especiales del 23 al 30 de noviembre. Escríbenos por WhatsApp y recibe el acceso anticipado.</p>
+<a class="btn" id="wabf" href="#" target="_blank" rel="noopener">Quiero el acceso anticipado</a>
+<div class="count" id="count" aria-label="Cuenta regresiva al Black Friday"></div>
+<div class="deals">
+<div><b>-25%</b>En labiales, glosses y rubores seleccionados</div>
+<div><b>2x1</b>En delineadores de cejas</div>
+<div><b>Regalo</b>Gloss de obsequio en compras desde $150.000</div>
+</div>
+</section>
+
+<section id="nosotros" class="about">
+<div><h2 style="font-size:34px">Maquillaje con acompañamiento</h2></div>
+<div><p>Somos una tienda de Pasto que te ayuda a escoger el tono correcto para tu piel y tu clima. Escríbenos por WhatsApp y te asesoramos antes de comprar.</p></div>
+</section>
+
+<section id="club">
+<div class="loyal"><h2 style="font-size:28px">Club Gaby</h2>
+<ul><li>Suma 1 punto por cada $1.000 y cámbialos por descuentos.</li><li>Regalo en tu cumpleaños.</li><li>Invita a una amiga: las dos reciben 10% de descuento.</li><li>Acceso anticipado a lanzamientos y ofertas.</li></ul></div>
+</section>
+</main>
+
+<footer><div class="wrap fgrid">
+<div><b>Gaby_makeup</b><br>Pasto, Nariño, Colombia<br>Instagram y TikTok: @gaby_makeup</div>
+<div>Envíos y cambios<br>Política de privacidad<br>Preguntas frecuentes</div>
+</div></footer>
+
+<a class="wa" id="wa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+<div id="pm" role="dialog" aria-modal="true" aria-labelledby="pmt"><div class="pmb"><button class="x" data-close aria-label="Cerrar detalle">&times;</button><div id="pmc"></div></div></div>
+<div id="veil"></div>
+<aside id="drawer" aria-label="Carrito de compras">
+<div class="dh"><h2>Tu carrito</h2><button class="x" id="close" aria-label="Cerrar carrito">&times;</button></div>
+<div id="items"></div>
+<div class="tot"><span>Total</span><span id="total">$0</span></div>
+<p class="note">El envío se calcula al confirmar el pedido por WhatsApp.</p>
+<a class="btn pay" id="pay" href="#" target="_blank" rel="noopener" aria-disabled="true">Pedir por WhatsApp</a>
+</aside>
+
+<script src="assets/app.js" defer></script>
+</body>
+</html>
