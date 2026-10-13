@@ -1,0 +1,17 @@
+{
+  "name": "Gaby Makeup",
+  "short_name": "GabyMakeup",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e91e63",
+  "description": "Tienda y servicios de maquillaje profesional",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3163/3163206.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
